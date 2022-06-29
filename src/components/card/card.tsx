@@ -11,6 +11,8 @@ export function Card({ character }: { character: iCharacter }) {
                     'character__picture card-img-top' +
                     (character.state === 'dead' && ' rotate')
                 }
+                // ALTERNATIVE CODE
+                // style={character.state==='alive' ? {} : { transform: 'rotate(180deg)' }}
             />
             <div className="card-body">
                 <h2 className="character__name card-title h4">
