@@ -4,14 +4,14 @@ import { Counselor } from '../models/counselor';
 import { Squire } from '../models/squire';
 
 const joffrey = new King('Joffrey', 'Baratheon', 14, 'joffrey', 1);
-const jaime = new Fighter('Jaime', 'Lannister', 33, 'jaime', 'espada');
+const jaime = new Fighter('Jaime', 'Lannister', 33, 'jaime', 'sword');
 jaime.skill = 9;
 const daenerys = new Fighter(
     'Daenerys',
     'Targaryen',
     16,
     'daenerys',
-    'dragones'
+    'dragons'
 );
 daenerys.skills = 9;
 const tyrion = new Counselor('Tyrion', 'Lannister', 30, 'tyrion', 'Daenerys');

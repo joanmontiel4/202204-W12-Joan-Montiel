@@ -1,4 +1,4 @@
-import { Character } from './character.js';
+import { Character } from './character';
 
 export class Squire extends Character {
     squireOf: string; //solo puede ser luchador

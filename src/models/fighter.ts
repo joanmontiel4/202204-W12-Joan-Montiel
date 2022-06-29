@@ -1,9 +1,9 @@
-import { Character } from './character.js';
+import { Character } from './character';
 
 export class Fighter extends Character {
     weapon: string;
     skill: number = 0;
-    sentence = 'Primero pego y luego pregunto';
+    sentence = 'First, I strike, then I ask';
     emoji = '🗡';
     constructor(
         name: string,

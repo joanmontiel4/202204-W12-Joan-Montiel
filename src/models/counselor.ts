@@ -1,4 +1,4 @@
-import { Character } from './character.js';
+import { Character } from './character';
 
 export class Counselor extends Character {
     toWhom; //rey, luchador, asesor o escudero
